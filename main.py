@@ -35,7 +35,7 @@ def main(api_key, domain_name):
 if __name__ == "__main__":
     clear_csv()
     list_of_domains = get_domains()
-    api_key = "XXXXXXXXXXXXXXXXX" #dynadot api key
+    api_key = "#################" #dynadot api key
 
     for domain_name in list_of_domains:
         json_data = main(api_key, domain_name)
